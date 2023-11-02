@@ -1,12 +1,5 @@
 import { useState, useEffect } from "react";
-import {
-  ChakraProvider,
-  Box,
-  Badge,
-  Avatar,
-  Text,
-  Flex,
-} from "@chakra-ui/react";
+import { Box, Badge, Avatar, Text, Flex } from "@chakra-ui/react";
 
 export const CardsComponent: React.FC = () => {
   const [data, setData] = useState<any[]>([]);

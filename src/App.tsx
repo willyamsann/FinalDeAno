@@ -2,24 +2,12 @@ import * as React from "react";
 import {
   ChakraProvider,
   Box,
-  Text,
-  Link,
-  VStack,
-  Code,
   Grid,
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
   Image,
   theme,
   Center,
-  Stack,
-  Heading,
-  Button,
 } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
-import { Logo } from "./Logo";
 import { CountdownTimer } from "./CountTimet";
 import { CardsComponent } from "./CardsComponent";
 

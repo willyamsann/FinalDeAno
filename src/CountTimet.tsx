@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ChakraProvider, Box, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
 export const CountdownTimer: React.FC = () => {
   const calculateTimeLeft = () => {
